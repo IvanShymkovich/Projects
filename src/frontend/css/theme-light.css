@@ -1,0 +1,17 @@
+body{
+    background-color: white;
+    color: black;
+}
+
+.theme {
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(39,38,40,0.4);
+}
+
+.change-theme[data-theme="dark"]{
+    display: block;
+}
+
+.change-theme[data-theme="light"]{
+    display: none;
+}

@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.theme {
+    background: #222222;
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+
+.change-theme[data-theme="dark"]{
+    display: none;
+}
+
+.change-theme[data-theme="light"]{
+    display: block;
+}
+
+.section-plans__list-item_description{
+    color: black;
+}
+
+.section-plans__list-item_description-white{
+    color: white;
+}
+
+.section-plans__list-item.active {
+    background-color: #b6b8ba;
+}
+
+.section-founder__content-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    line-height: 40px;
+    color: black;
+}
+
+.section-founder__content-name,
+.section-founder__content-post{
+    color: black;
+}
