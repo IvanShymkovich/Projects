@@ -67,7 +67,7 @@ h1 {
   border-radius: 10px;
   -webkit-transform: translate(0px, -100%);
           transform: translate(0px, -100%);
-  opacity: 0;
+  opacity: 2;
   -webkit-transition: all 0.9s ease 0s;
   transition: all 0.9s ease 0s;
 }
